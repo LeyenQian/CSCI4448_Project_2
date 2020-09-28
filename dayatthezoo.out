@@ -1,0 +1,1748 @@
+Enter number of days: 7
+
+
+----------------------------------------- Zoo Beg -----------------------------------------
+#[Zoo] add employee  <name: zoo_keeper_name> <type: Zookeeper> <identity: 9567>  succeed.
+#[Zoo] add animal <name: dog_a_name> <type: Dog> succeed.
+#[Zoo] add animal <name: dog_b_name> <type: Dog> succeed.
+#[Zoo] add animal <name: wolf_a_name> <type: Wolf> succeed.
+#[Zoo] add animal <name: wolf_b_name> <type: Wolf> succeed.
+#[Zoo] add animal <name: cat_a_name> <type: Cat> succeed.
+#[Zoo] add animal <name: cat_b_name> <type: Cat> succeed.
+#[Zoo] add animal <name: lion_a_name> <type: Lion> succeed.
+#[Zoo] add animal <name: lion_b_name> <type: Lion> succeed.
+#[Zoo] add animal <name: tiger_a_name> <type: Tiger> succeed.
+#[Zoo] add animal <name: tiger_b_name> <type: Tiger> succeed.
+#[Zoo] add animal <name: elephant_a_name> <type: Elephant> succeed.
+#[Zoo] add animal <name: elephant_b_name> <type: Elephant> succeed.
+#[Zoo] add animal <name: hippo_a_name> <type: Hippo> succeed.
+#[Zoo] add animal <name: hippo_b_name> <type: Hippo> succeed.
+#[Zoo] add animal <name: rhino_a> <type: Rhino> succeed.
+#[Zoo] add animal <name: rhino_b> <type: Rhino> succeed.
+#[Zoo] add animal <name: panda_a_name> <type: Panda> succeed.
+#[Zoo] add animal <name: panda_b_name> <type: Panda> succeed.
+#[Zoo] add animal <name: polar_bear_a_name> <type: PolarBear> succeed.
+#[Zoo] add animal <name: polar_bear_b_name> <type: PolarBear> succeed.
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 1 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name digs.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name digs.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 1 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 2 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name digs.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 2 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 3 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name charges.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b charges.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name digs.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 3 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 4 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name charges.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a charges.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name charges.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 4 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 5 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name charges.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name digs.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 5 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 6 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b charges.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a charges.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name digs.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name makes noise.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 6 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+
+
+
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 7 ∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_a_name <Lion>.
+#[Lion] lion_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_b_name <Dog>.
+#[Dog] dog_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_b_name <Cat>.
+#[Cat] cat_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call lion_b_name <Lion>.
+#[Lion] lion_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_b <Rhino>.
+#[Rhino] rhino_b makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b charges.
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_a_name <Panda>.
+#[Panda] panda_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[Zookeeper] zoo_keeper_name roll call rhino_a <Rhino>.
+#[Rhino] rhino_a makes noise.
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a charges.
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call cat_a_name <Cat>.
+#[Cat] cat_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call dog_a_name <Dog>.
+#[Dog] dog_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call panda_b_name <Panda>.
+#[Panda] panda_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+
+
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+
+
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+#[Zookeeper] zoo_keeper_name roll call hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name makes noise.
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name charges.
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧ [Zookeeper] zoo_keeper_name arrives at Zoo on Day 7 ∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
+----------------------------------------- Zoo End -----------------------------------------
