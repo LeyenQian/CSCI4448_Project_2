@@ -1,4 +1,4 @@
-# 4448 Project 1
+# 4448 Project 2 (based on Project 1)
 ### Contact information
  - Name: Leyen Qian (108384916)</br>
  - Email: jiqi2811@colorado.edu</br>
