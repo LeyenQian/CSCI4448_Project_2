@@ -2,7 +2,7 @@
 ### Contact information
  - Name: Leyen Qian (108384916)</br>
  - Email: jiqi2811@colorado.edu</br>
- - Team Members: Ziyue Guo (107037369), Puyuan Zhang (107207898)
+ - Team Members: Yi Hou (109288627), Puyuan Zhang (107207898)
 
 ### Files Description
 1. Main.java  ( ./Main.java )</br>
