@@ -47,7 +47,7 @@ public class Zookeeper extends ZooEmployee implements Subject, Observer
             return;
         }
         
-        if ( flag == Constants.FLAG_ANIMAL_WAKE_UP )
+        if ( flag == Constants.FLAG_WORK_END )
         {
             this.leave();
             return;
