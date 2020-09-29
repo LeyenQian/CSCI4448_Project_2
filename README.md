@@ -5,26 +5,35 @@
  - Team Members: Yi Hou (109288627), Puyuan Zhang (107207898)
 
 ### Files Description
-1. Main.java  ( ./Main.java )</br>
+ - Main.java  ( ./Main.java )</br>
 the entry point of the program.</br>
 
-2. dayatthezoo.out ( ./dayatthezoo.out )</br>
+ - dayatthezoo.out ( ./dayatthezoo.out )</br>
 sample output (number of days: 7)</br>
 
-3. Animal.java ( ./Animals/Animal.java )</br>
+ - Animal.java ( ./Animals/Animal.java )</br>
 the abstract class inherited by all beast divisions (Canine, Feline, Pachyderm and Ursidae).
 
-4. Canine, Feline, Pachyderm and Ursidae classes are inherited by animal speces under the breed directory respectively.</br>
+ - Canine, Feline, Pachyderm and Ursidae classes are inherited by animal speces under the breed directory respectively.</br>
 ( ./Animals/Canine/Breed.* )</br>
 ( ./Animals/Feline/Breed/* )</br>
 ( ./Animals/Pachyderm.Breed/* )</br>
 ( ./Animals/Ursidae/Breed/* )
 
-5. Zoo.java ( ./Zoo/Zoo.java )</br>
+ - Panda.java (./Animals/Ursidae/Breed/Panda.java)
+For the eat method, it uses the one provided by the UrsidaeDelegation, instead the one that inherited from Animal.
+
+ - Observer and Subject (./Zoo/Observer/*)
+Interface used for observer patten.
+
+ - Constants.java (./Zoo/Employee/Constants.java)
+It defines the flags used in observer patten and times for ZooClock.
+
+ - Zoo.java ( ./Zoo/Zoo.java )</br>
 zoo class can store all employee and animal instances.
 
-6. ZooKeeper.java ( ./Zoo/Employee/Zookeeper.java )</br>
-It inherites the ZooEmployee class from the partent dictory, and provides additional function that specific to zoo keeper, such as feed animals and roll call animals.
+ - ZooKeeper, ZooFoodServer and ZooAnnouncer ( ./Zoo/Employee/* )</br>
+It inherites the ZooEmployee class from the partent dictory, and provides additional function that specific to zoo keeper, such as feed animals and roll call animals. Any of them can be subject or observer (need to implement the corresponding interface)
 
-### Issue
-It would be better to implement the random animal behavoirs by using the weighted random selection algorithm. But I found Java's design priciple on dictionary or key value pair are different than that in Python or C. Therefore, I choose to implement it with the random number function.
+ - ZooClock.java (./Zoo/ZooClock.java)</br>
+ZooClock is the main subject, ZooKeeper, ZooFoodServer are the direct observers of it. Their behaviors are decided by ZooClock.

@@ -1,0 +1,2254 @@
+Enter number of days: 7
+
+
+----------------------------------------- Zoo Beg -----------------------------------------
+#[Zoo] add employee  <name: zoo_keeper_name> <type: Zookeeper> <identity: 9567>  succeed.
+#[Zoo] add employee  <name: zoo_food_server_name> <type: ZooFoodServer> <identity: 9669>  succeed.
+#[Zoo] add employee  <name: zoo_announcer_name> <type: ZooAnnouncer> <identity: 9568>  succeed.
+#[Zoo] add animal <name: dog_a_name> <type: Dog> succeed.
+#[Zoo] add animal <name: dog_b_name> <type: Dog> succeed.
+#[Zoo] add animal <name: wolf_a_name> <type: Wolf> succeed.
+#[Zoo] add animal <name: wolf_b_name> <type: Wolf> succeed.
+#[Zoo] add animal <name: cat_a_name> <type: Cat> succeed.
+#[Zoo] add animal <name: cat_b_name> <type: Cat> succeed.
+#[Zoo] add animal <name: lion_a_name> <type: Lion> succeed.
+#[Zoo] add animal <name: lion_b_name> <type: Lion> succeed.
+#[Zoo] add animal <name: tiger_a_name> <type: Tiger> succeed.
+#[Zoo] add animal <name: tiger_b_name> <type: Tiger> succeed.
+#[Zoo] add animal <name: elephant_a_name> <type: Elephant> succeed.
+#[Zoo] add animal <name: elephant_b_name> <type: Elephant> succeed.
+#[Zoo] add animal <name: hippo_a_name> <type: Hippo> succeed.
+#[Zoo] add animal <name: hippo_b_name> <type: Hippo> succeed.
+#[Zoo] add animal <name: rhino_a> <type: Rhino> succeed.
+#[Zoo] add animal <name: rhino_b> <type: Rhino> succeed.
+#[Zoo] add animal <name: panda_a_name> <type: Panda> succeed.
+#[Zoo] add animal <name: panda_b_name> <type: Panda> succeed.
+#[Zoo] add animal <name: polar_bear_a_name> <type: PolarBear> succeed.
+#[Zoo] add animal <name: polar_bear_b_name> <type: PolarBear> succeed.
+-------------------------------------------------------- Day 1 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+-------------------------------------------------------- Day 2 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name digs.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name charges.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+-------------------------------------------------------- Day 3 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+-------------------------------------------------------- Day 4 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+-------------------------------------------------------- Day 5 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name digs.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+-------------------------------------------------------- Day 6 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+-------------------------------------------------------- Day 7 --------------------------------------------------------
+
+*******************************************************************************************
+#[ZooClock] current time is 8.
+#[Zookeeper] zoo_keeper_name arrives.
+#[ZooFoodServer] zoo_food_server_name arrives.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 9.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_a_name <Lion>.
+#[Lion] lion_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_b_name <Dog>.
+#[Dog] dog_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_b_name <Cat>.
+#[Cat] cat_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up lion_b_name <Lion>.
+#[Lion] lion_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_b <Rhino>.
+#[Rhino] rhino_b wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_a_name <Panda>.
+#[Panda] panda_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up rhino_a <Rhino>.
+#[Rhino] rhino_a wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up cat_a_name <Cat>.
+#[Cat] cat_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name wakes up (overrided).
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up dog_a_name <Dog>.
+#[Dog] dog_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up panda_b_name <Panda>.
+#[Panda] panda_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name wakes up.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to wake the animals!"
+#[Zookeeper] zoo_keeper_name wakes up hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name wakes up.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 10.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 11.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_a_name <Lion>.
+#[Lion] lion_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_b_name <Dog>.
+#[Dog] dog_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_b_name <Cat>.
+#[Cat] cat_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds lion_b_name <Lion>.
+#[Lion] lion_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_b <Rhino>.
+#[Rhino] rhino_b eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_a_name <Panda>.
+#[Panda] panda_a_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds rhino_a <Rhino>.
+#[Rhino] rhino_a eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds cat_a_name <Cat>.
+#[Cat] cat_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name eats. (overrided)
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds dog_a_name <Dog>.
+#[Dog] dog_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds panda_b_name <Panda>.
+#[Panda] panda_b_name eats lots of bamboos.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name eats.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to feed the animals!"
+#[Zookeeper] zoo_keeper_name feeds hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name eats.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 12.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the lunch!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 13.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_a_name <Lion>.
+#[Lion] lion_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_b_name <Wolf>.
+#[Wolf] wolf_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_b_name <Dog>.
+#[Dog] dog_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_b_name <Cat>.
+#[Cat] cat_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_b_name <Elephant>.
+#[Elephant] elephant_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises lion_b_name <Lion>.
+#[Lion] lion_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_a_name <Tiger>.
+#[Tiger] tiger_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises elephant_a_name <Elephant>.
+#[Elephant] elephant_a_name charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_a_name <Hippo>.
+#[Hippo] hippo_a_name charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_b <Rhino>.
+#[Rhino] rhino_b roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_a_name <Panda>.
+#[Panda] panda_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises rhino_a <Rhino>.
+#[Rhino] rhino_a charges.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_b_name <PolarBear>.
+#[PolarBear] polar_bear_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises cat_a_name <Cat>.
+#[Cat] cat_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises wolf_a_name <Wolf>.
+#[Wolf] wolf_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises dog_a_name <Dog>.
+#[Dog] dog_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises panda_b_name <Panda>.
+#[Panda] panda_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises polar_bear_a_name <PolarBear>.
+#[PolarBear] polar_bear_a_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises tiger_b_name <Tiger>.
+#[Tiger] tiger_b_name roams.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to exercise the animals!"
+#[Zookeeper] zoo_keeper_name exercises hippo_b_name <Hippo>.
+#[Hippo] hippo_b_name roams.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 14.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 15.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 16.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 17.
+#[ZooFoodServer] zoo_food_server_name is making food.
+#[ZooAnnouncer] zoo_announcer_name says: "ZooFoodServer is about to serve the dinner!"
+#[ZooFoodServer] zoo_food_server_name serves food.
+#[ZooFoodServer] zoo_food_server_name cleans.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 18.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 19.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_a_name <Lion> to sleep.
+#[Lion] lion_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_b_name <Wolf> to sleep.
+#[Wolf] wolf_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_b_name <Dog> to sleep.
+#[Dog] dog_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_b_name <Cat> to sleep.
+#[Cat] cat_b_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_b_name <Elephant> to sleep.
+#[Elephant] elephant_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells lion_b_name <Lion> to sleep.
+#[Lion] lion_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_a_name <Tiger> to sleep.
+#[Tiger] tiger_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells elephant_a_name <Elephant> to sleep.
+#[Elephant] elephant_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_a_name <Hippo> to sleep.
+#[Hippo] hippo_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_b <Rhino> to sleep.
+#[Rhino] rhino_b sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_a_name <Panda> to sleep.
+#[Panda] panda_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells rhino_a <Rhino> to sleep.
+#[Rhino] rhino_a sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_b_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells cat_a_name <Cat> to sleep.
+#[Cat] cat_a_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells wolf_a_name <Wolf> to sleep.
+#[Wolf] wolf_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells dog_a_name <Dog> to sleep.
+#[Dog] dog_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells panda_b_name <Panda> to sleep.
+#[Panda] panda_b_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells polar_bear_a_name <PolarBear> to sleep.
+#[PolarBear] polar_bear_a_name sleeps.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells tiger_b_name <Tiger> to sleep.
+#[Tiger] tiger_b_name makes noise.
+#[ZooAnnouncer] zoo_announcer_name says: "Zookeeper is about to let the animals sleep!"
+#[Zookeeper] zoo_keeper_name tells hippo_b_name <Hippo> to sleep.
+#[Hippo] hippo_b_name sleeps.
+*******************************************************************************************
+
+
+*******************************************************************************************
+#[ZooClock] current time is 20.
+#[Zookeeper] zoo_keeper_name leaves.
+#[ZooFoodServer] zoo_food_server_name leaves.
+*******************************************************************************************
+
+----------------------------------------- Zoo End -----------------------------------------
