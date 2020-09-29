@@ -5,7 +5,9 @@ import Animals.Feline.Breed.*;
 import Animals.Pachyderm.Breed.*;
 import Animals.Ursidae.Breed.*;
 import Zoo.Zoo;
+import Zoo.ZooClock;
 import Zoo.Employee.Type.ZooAnnouncer;
+import Zoo.Employee.Type.ZooFoodServer;
 import Zoo.Employee.Type.Zookeeper;
 
 
@@ -25,8 +27,12 @@ public class Main
 
         System.out.println("\n\n----------------------------------------- Zoo Beg -----------------------------------------");
 
+        // Zoo
+        Zoo zoo = new Zoo();
+        ZooClock zoo_clock = new ZooClock();
+
         // Employee
-        Zookeeper zoo_keeper = new Zookeeper();
+        Zookeeper zoo_keeper = new Zookeeper(zoo);
         zoo_keeper.set_identity(9567);
         zoo_keeper.set_name("zoo_keeper_name");
 
@@ -34,7 +40,15 @@ public class Main
         zoo_announcer.set_identity(9568);
         zoo_announcer.set_name("zoo_announcer_name");
 
+        ZooFoodServer zoo_foodserver = new ZooFoodServer();
+        zoo_foodserver.set_identity(9669);
+        zoo_foodserver.set_name("zoo_food_server_name");
+
+        // subject & observer operations
         zoo_keeper.add_observer(zoo_announcer);
+        zoo_foodserver.add_observer(zoo_announcer);
+        zoo_clock.add_observer(zoo_keeper);
+        zoo_clock.add_observer(zoo_foodserver);
 
         // Canine
         Animal dog_a = new Dog("dog_a_name");
@@ -64,9 +78,10 @@ public class Main
         Animal polar_bear_a = new PolarBear("polar_bear_a_name");
         Animal polar_bear_b = new PolarBear("polar_bear_b_name");
 
-        // Zoo
-        Zoo zoo = new Zoo();
+        // Zoo operations
         zoo.add_employee(zoo_keeper);
+        zoo.add_employee(zoo_foodserver);
+        zoo.add_employee(zoo_announcer);
 
         zoo.add_animal(dog_a);
         zoo.add_animal(dog_b);
@@ -98,7 +113,7 @@ public class Main
         zoo.add_animal(polar_bear_a);
         zoo.add_animal(polar_bear_b);
 
-        zoo_keeper.visit_zoo(zoo, days);
+        zoo_clock.perform_daily_routing(days);
 
         System.out.println("----------------------------------------- Zoo End -----------------------------------------\n\n");
     }
