@@ -34,8 +34,10 @@ public class ZooClock implements Subject
     {
         for (int day = 1; day <= days; day ++)
         {
+                System.out.println(String.format("-------------------------------------------------------- Day %d --------------------------------------------------------", day));
             for(int time = Constants.TIME_WORK_BEGIN; time <= Constants.TIME_WORK_END; time ++)
             {
+                System.out.println("\n*******************************************************************************************");
                 System.out.println(String.format("#[%s] current time is %d.", this.type, time));
 
                 if ( time ==  Constants.TIME_WORK_BEGIN)
@@ -74,7 +76,7 @@ public class ZooClock implements Subject
                 {
                     this.notify_observers(Constants.FLAG_ANIMAL_SLEEP);
                 }
-
+                System.out.println("*******************************************************************************************\n");
                 try { Thread.sleep(1000); } catch (InterruptedException e) {}
             }
         }
