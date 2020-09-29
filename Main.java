@@ -5,6 +5,7 @@ import Animals.Feline.Breed.*;
 import Animals.Pachyderm.Breed.*;
 import Animals.Ursidae.Breed.*;
 import Zoo.Zoo;
+import Zoo.Employee.Type.ZooAnnouncer;
 import Zoo.Employee.Type.Zookeeper;
 
 
@@ -28,6 +29,12 @@ public class Main
         Zookeeper zoo_keeper = new Zookeeper();
         zoo_keeper.set_identity(9567);
         zoo_keeper.set_name("zoo_keeper_name");
+
+        ZooAnnouncer zoo_announcer = new ZooAnnouncer();
+        zoo_announcer.set_identity(9568);
+        zoo_announcer.set_name("zoo_announcer_name");
+
+        zoo_keeper.add_observer(zoo_announcer);
 
         // Canine
         Animal dog_a = new Dog("dog_a_name");
