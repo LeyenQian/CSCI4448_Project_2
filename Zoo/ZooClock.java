@@ -34,7 +34,8 @@ public class ZooClock implements Subject
     {
         for (int day = 1; day <= days; day ++)
         {
-                System.out.println(String.format("-------------------------------------------------------- Day %d --------------------------------------------------------", day));
+            System.out.println(String.format("-------------------------------------------------------- Day %d --------------------------------------------------------", day));
+            
             for(int time = Constants.TIME_WORK_BEGIN; time <= Constants.TIME_WORK_END; time ++)
             {
                 System.out.println("\n*******************************************************************************************");
