@@ -78,7 +78,7 @@ public class ZooClock implements Subject
                     this.notify_observers(Constants.FLAG_ANIMAL_SLEEP, "");
                 }
                 System.out.println("*******************************************************************************************\n");
-                //try { Thread.sleep(1000); } catch (InterruptedException e) {}
+                try { Thread.sleep(1000); } catch (InterruptedException e) {}
             }
         }
     }
