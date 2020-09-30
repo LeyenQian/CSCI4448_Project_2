@@ -89,7 +89,7 @@ public class ZooClock implements Subject
                 }
 
                 System.out.println("*******************************************************************************************\n");
-                //try { Thread.sleep(1000); } catch (InterruptedException e) {}
+                try { Thread.sleep(1000); } catch (InterruptedException e) {}
             }
             announcer.leave();
         }
