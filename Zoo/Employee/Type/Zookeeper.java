@@ -21,11 +21,11 @@ public class Zookeeper extends ZooEmployee implements Subject, Observer
         this.zoo = zoo;
     }
     
-    public void notify_observers(int flag)
+    public void notify_observers(int flag, String info)
     {
         for(int i = 0; i < observers.size(); i++)
         {
-            observers.get(i).check_notify(flag);
+            observers.get(i).check_notify(flag, info);
         }
     }
 
@@ -39,16 +39,18 @@ public class Zookeeper extends ZooEmployee implements Subject, Observer
         observers.remove(observer);
     }
 
-    public void check_notify(int flag)
+    public void check_notify(int flag, String info)
     {
         if ( flag == Constants.FLAG_WORK_BEGIN )
         {
+            notify_observers(Constants.FLAG_WORK_BEGIN, this.get_type() + "<" + this.get_identity() + ">" );
             this.arrive();
             return;
         }
         
         if ( flag == Constants.FLAG_WORK_END )
         {
+            notify_observers(Constants.FLAG_WORK_END, this.get_type() + "<" + this.get_identity() + ">" );
             this.leave();
             return;
         }
@@ -80,47 +82,37 @@ public class Zookeeper extends ZooEmployee implements Subject, Observer
         }
     }
 
-    public void arrive()
-    {   
-        System.out.println(String.format("#[%s] %s arrives.", this.type, this.name));
-    }
-
-    public void leave()
-    {
-        System.out.println(String.format("#[%s] %s leaves.", this.type, this.name));
-    }
-
     public void wake_animal(Animal animal)
     {
-        notify_observers(Constants.FLAG_ANIMAL_WAKE_UP);
+        notify_observers(Constants.FLAG_ANIMAL_WAKE_UP, "");
         System.out.println(String.format("#[%s] %s wakes up %s <%s>.", this.type, this.name, animal.get_name(), animal.get_type()));
         animal.wake_up();
     }
 
     public void roll_call_animal(Animal animal)
     {
-        notify_observers(Constants.FLAG_ANIMAL_ROLLCALL);
+        notify_observers(Constants.FLAG_ANIMAL_ROLLCALL, "");
         System.out.println(String.format("#[%s] %s roll call %s <%s>.", this.type, this.name, animal.get_name(), animal.get_type()));
         animal.make_noise();
     }
 
     public void feed_animal(Animal animal)
     {
-        notify_observers(Constants.FLAG_ANIMAL_FEED);
+        notify_observers(Constants.FLAG_ANIMAL_FEED, "");
         System.out.println(String.format("#[%s] %s feeds %s <%s>.", this.type, this.name, animal.get_name(), animal.get_type()));
         animal.eat();
     }
 
     public void exercise_animal(Animal animal)
     {
-        notify_observers(Constants.FLAG_ANIMAL_EXERCISE);
+        notify_observers(Constants.FLAG_ANIMAL_EXERCISE, "");
         System.out.println(String.format("#[%s] %s exercises %s <%s>.", this.type, this.name, animal.get_name(), animal.get_type()));
         animal.roam();
     }
 
     public void tell_animal_to_sleep(Animal animal)
     {
-        notify_observers(Constants.FLAG_ANIMAL_SLEEP);
+        notify_observers(Constants.FLAG_ANIMAL_SLEEP, "");
         System.out.println(String.format("#[%s] %s tells %s <%s> to sleep.", this.type, this.name, animal.get_name(), animal.get_type()));
         animal.sleep();
     }

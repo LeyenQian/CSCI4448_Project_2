@@ -10,6 +10,12 @@ public class Zoo
     public HashMap<String, Animal> animals = new HashMap<String, Animal>();
     private HashMap<Integer, ZooEmployee> employees = new HashMap<Integer, ZooEmployee>();
     private String type = this.getClass().getSimpleName();
+    private ZooClock zoo_clock;
+
+    public Zoo(ZooClock zoo_clock)
+    {
+        this.zoo_clock = zoo_clock;
+    }
 
     public String get_type()
     {
@@ -52,5 +58,10 @@ public class Zoo
 
         this.employees.put(employee.get_identity(), employee);
         System.out.println(String.format("#[Zoo] add employee  <name: %s> <type: %s> <identity: %d>  succeed.", employee.get_name(), employee.get_type(), employee.get_identity()));
+    }
+
+    public void start_operation(int days)
+    {
+        this.zoo_clock.perform_daily_routing(days);
     }
 }

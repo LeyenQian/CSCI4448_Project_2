@@ -13,10 +13,10 @@ public class ZooClock implements Subject
     protected String type = this.getClass().getSimpleName();
     private List<Observer> observers = new ArrayList<Observer>();
 
-    public void notify_observers(int flag)
+    public void notify_observers(int flag, String info)
     {
         for (int i = 0; i < observers.size(); i++) {
-            observers.get(i).check_notify(flag);
+            observers.get(i).check_notify(flag, info);
         }
     }
 
@@ -43,42 +43,42 @@ public class ZooClock implements Subject
 
                 if ( time ==  Constants.TIME_WORK_BEGIN)
                 {
-                    this.notify_observers(Constants.FLAG_WORK_BEGIN);
+                    this.notify_observers(Constants.FLAG_WORK_BEGIN, "");
                 }
                 else if ( time == Constants.TIME_WORK_END )
                 {
-                    this.notify_observers(Constants.FLAG_WORK_END);
+                    this.notify_observers(Constants.FLAG_WORK_END, "");
                 }
                 else if ( time == Constants.TIME_FOOD_LUNCH )
                 {
-                    this.notify_observers(Constants.FLAG_FOOD_LUNCH);
+                    this.notify_observers(Constants.FLAG_FOOD_LUNCH, "");
                 }
                 else if ( time == Constants.TIME_FOOD_DINNER )
                 {
-                    this.notify_observers(Constants.FLAG_FOOD_DINNER);
+                    this.notify_observers(Constants.FLAG_FOOD_DINNER, "");
                 }
                 else if ( time == Constants.TIME_ANIMAL_WAKE_UP )
                 {
-                    this.notify_observers(Constants.FLAG_ANIMAL_WAKE_UP);
+                    this.notify_observers(Constants.FLAG_ANIMAL_WAKE_UP, "");
                 }
                 else if ( time == Constants.TIME_ANIMAL_ROLLCALL )
                 {
-                    this.notify_observers(Constants.FLAG_ANIMAL_ROLLCALL);
+                    this.notify_observers(Constants.FLAG_ANIMAL_ROLLCALL, "");
                 }
                 else if ( time == Constants.TIME_ANIMAL_FEED )
                 {
-                    this.notify_observers(Constants.FLAG_ANIMAL_FEED);
+                    this.notify_observers(Constants.FLAG_ANIMAL_FEED, "");
                 }
                 else if ( time == Constants.TIME_ANIMAL_EXERCISE )
                 {
-                    this.notify_observers(Constants.FLAG_ANIMAL_EXERCISE);
+                    this.notify_observers(Constants.FLAG_ANIMAL_EXERCISE, "");
                 }
                 else if ( time == Constants.TIME_ANIMAL_SLEEP )
                 {
-                    this.notify_observers(Constants.FLAG_ANIMAL_SLEEP);
+                    this.notify_observers(Constants.FLAG_ANIMAL_SLEEP, "");
                 }
                 System.out.println("*******************************************************************************************\n");
-                try { Thread.sleep(1000); } catch (InterruptedException e) {}
+                //try { Thread.sleep(1000); } catch (InterruptedException e) {}
             }
         }
     }

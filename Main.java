@@ -28,8 +28,9 @@ public class Main
         System.out.println("\n\n----------------------------------------- Zoo Beg -----------------------------------------");
 
         // Zoo
-        Zoo zoo = new Zoo();
         ZooClock zoo_clock = new ZooClock();
+        Zoo zoo = new Zoo(zoo_clock);
+        
 
         // Employee
         Zookeeper zoo_keeper = new Zookeeper(zoo);
@@ -113,7 +114,7 @@ public class Main
         zoo.add_animal(polar_bear_a);
         zoo.add_animal(polar_bear_b);
 
-        zoo_clock.perform_daily_routing(days);
+        zoo.start_operation(days);
 
         System.out.println("----------------------------------------- Zoo End -----------------------------------------\n\n");
     }

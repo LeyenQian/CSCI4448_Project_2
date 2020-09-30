@@ -6,17 +6,17 @@ import Zoo.Observer.Observer;
 
 public class ZooAnnouncer extends ZooEmployee implements Observer
 {
-    public void check_notify(int flag)
+    public void check_notify(int flag, String info)
     {
         String content = "";
         
         if ( flag == Constants.FLAG_WORK_BEGIN )
         {
-            content = "Zookeeper is about to work!";
+            content = String.format("%s is about to work!", info);
         }
         else if ( flag == Constants.FLAG_WORK_END )
         {
-            content = "Zookeeper is about to leave!";
+            content = String.format("%s is about to leave!", info);
         }
         else if ( flag == Constants.FLAG_ANIMAL_WAKE_UP )
         {

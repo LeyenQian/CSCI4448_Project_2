@@ -31,4 +31,14 @@ public abstract class ZooEmployee {
     {
         return this.identity;
     }
+
+    public void arrive()
+    {   
+        System.out.println(String.format("#[%s] %s arrives.", this.type, this.name));
+    }
+
+    public void leave()
+    {
+        System.out.println(String.format("#[%s] %s leaves.", this.type, this.name));
+    }
 }

@@ -12,11 +12,11 @@ public class ZooFoodServer extends ZooEmployee implements Subject, Observer
 {
     private List<Observer> observers = new ArrayList<Observer>();
 
-    public void notify_observers(int flag)
+    public void notify_observers(int flag, String info)
     {
         for(int i = 0; i < observers.size(); i++)
         {
-            observers.get(i).check_notify(flag);
+            observers.get(i).check_notify(flag, info);
         }
     }
 
@@ -30,14 +30,16 @@ public class ZooFoodServer extends ZooEmployee implements Subject, Observer
         observers.remove(observer);
     }
 
-    public void check_notify(int flag)
+    public void check_notify(int flag, String info)
     {
         if ( flag == Constants.FLAG_WORK_BEGIN )
         {
+            notify_observers(Constants.FLAG_WORK_BEGIN, this.get_type() + "<" + this.get_identity() + ">" );
             this.arrive();
         }
         else if ( flag == Constants.FLAG_WORK_END )
         {
+            notify_observers(Constants.FLAG_WORK_END, this.get_type() + "<" + this.get_identity() + ">" );
             this.leave();
         }
         else if ( flag == Constants.FLAG_FOOD_LUNCH || flag == Constants.FLAG_FOOD_DINNER)
@@ -47,16 +49,6 @@ public class ZooFoodServer extends ZooEmployee implements Subject, Observer
             this.clean();
         }
     }
-    
-    public void arrive()
-    {   
-        System.out.println(String.format("#[%s] %s arrives.", this.type, this.name));
-    }
-
-    public void leave()
-    {
-        System.out.println(String.format("#[%s] %s leaves.", this.type, this.name));
-    }
 
     public void make_food()
     {
@@ -65,7 +57,7 @@ public class ZooFoodServer extends ZooEmployee implements Subject, Observer
 
     public void serve_food(int food_type)
     {
-        notify_observers(food_type);
+        notify_observers(food_type, "");
         System.out.println(String.format("#[%s] %s serves food.", this.type, this.name));
     }
 
