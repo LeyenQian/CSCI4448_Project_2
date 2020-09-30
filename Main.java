@@ -32,7 +32,7 @@ public class Main
         Zoo zoo = new Zoo(zoo_clock);
         
         // Employee
-        Zookeeper zoo_keeper = new Zookeeper(zoo);
+        Zookeeper zoo_keeper = new Zookeeper(zoo.animals);
         zoo_keeper.set_identity(9567);
         zoo_keeper.set_name("zoo_keeper_name");
 

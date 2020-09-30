@@ -1,11 +1,11 @@
 package Zoo.Employee.Type;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import Animals.Animal;
-import Zoo.Zoo;
 import Zoo.Employee.ZooEmployee;
 import Zoo.Employee.Constants;
 import Zoo.Observer.Observer;
@@ -14,11 +14,11 @@ import Zoo.Observer.Subject;
 public class Zookeeper extends ZooEmployee implements Subject, Observer
 {
     private List<Observer> observers = new ArrayList<Observer>();
-    private Zoo zoo;
+    private HashMap<String, Animal> animals;
 
-    public Zookeeper(Zoo zoo)
+    public Zookeeper(HashMap<String, Animal> animals)
     {
-        this.zoo = zoo;
+        this.animals = animals;
     }
     
     public void notify_observers(int flag, String info)
@@ -55,7 +55,7 @@ public class Zookeeper extends ZooEmployee implements Subject, Observer
             return;
         }
 
-        for (Map.Entry<String, Animal> animal_set : zoo.animals.entrySet())
+        for (Map.Entry<String, Animal> animal_set : animals.entrySet())
         {
             Animal animal = animal_set.getValue();
 
