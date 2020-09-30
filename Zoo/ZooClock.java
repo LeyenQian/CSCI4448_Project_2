@@ -6,6 +6,7 @@ import java.lang.Thread;
 
 import Zoo.Observer.Subject;
 import Zoo.Employee.Constants;
+import Zoo.Employee.Type.ZooAnnouncer;
 import Zoo.Observer.Observer;
 
 public class ZooClock implements Subject
@@ -30,12 +31,13 @@ public class ZooClock implements Subject
         observers.remove(observer);
     }
 
-    public void perform_daily_routing(int days)
+    public void perform_daily_routing(int days, ZooAnnouncer announcer)
     {
         for (int day = 1; day <= days; day ++)
         {
             System.out.println(String.format("-------------------------------------------------------- Day %d --------------------------------------------------------", day));
-            
+
+            announcer.arrive();
             for(int time = Constants.TIME_WORK_BEGIN; time <= Constants.TIME_WORK_END; time ++)
             {
                 System.out.println("\n*******************************************************************************************");
@@ -80,6 +82,7 @@ public class ZooClock implements Subject
                 System.out.println("*******************************************************************************************\n");
                 try { Thread.sleep(1000); } catch (InterruptedException e) {}
             }
+            announcer.leave();
         }
     }
 }

@@ -31,7 +31,6 @@ public class Main
         ZooClock zoo_clock = new ZooClock();
         Zoo zoo = new Zoo(zoo_clock);
         
-
         // Employee
         Zookeeper zoo_keeper = new Zookeeper(zoo);
         zoo_keeper.set_identity(9567);
